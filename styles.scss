@@ -1,1 +1,53 @@
-body { background: $primary-color; }
+html, body {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: $white; 
+  color: $secondary-color;
+}
+.primary {
+  background-color : $primary-color !important;
+}
+.header {
+  background-color: $primary-color;
+}
+.content {
+  background-color: $white;
+}
+.footer {
+  background-color: $white;
+}
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: bold;
+  text-align: center;
+  color: $white;
+}
+p {
+  color: $secondary-color;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: lighter;
+}
+.bouton {
+  font-size: 28px;
+  font-weight: lighter;
+}
+p.footer {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: lighter;
+}
+.social {
+  display: inline;
+  margin: 0 10px;
+}
+.social a{
+  display: inline;
+  font-size: 0;
+}
+.site {
+  font-weight: lighter;
+  font-size: 19px;
+  color: $primary-color;
+  text-decoration: underline;
+}

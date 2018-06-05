@@ -1,11 +1,145 @@
-<spacer size="16"></spacer>
-<container>
-  <spacer size="16"></spacer>
-  <row>
-    <columns align="left">
-      <h1>Hello {{name}}</h1>
-      <p><a href="http://google.com">My link</a></p>
-    </columns>
-  </row>
-  <spacer size="16"></spacer>
-</container>
+<wrapper class="body">
+  <wrapper class="header">
+    <container class="header">
+      <spacer size="40"></spacer>
+      <row>
+        <columns large="6" small="4">
+          <a href="https://antistatique.net/">
+            <img src="logo.png" alt="Antistatique" width="134" style="width:134px!important;">
+          </a>
+        </columns>
+        <columns align="right" large="6" small="8">
+          <p class="text-right" style="color:#ffffff!important;font-size: 12px; font-weight:normal;"><font color="#ffffff">Pas d'image ?<webversion style="color:#ffffff!important; text-decoration: underline;font-weight:normal;font-size: 12px;"> version web</webversion></font></p>
+        </columns>
+      </row>
+      <spacer size="40"></spacer>
+    </container>
+  </wrapper>
+  <repeater>
+    <layout label="intro">
+      <wrapper class="header">
+        <container class="header">
+          <row>
+            <columns large="1"></columns>
+            <columns large="10">
+              <wrapper class="header">
+                <container class="header">
+                  <row>
+                    <columns>
+                      <center>
+                        <img editable border="0" label="image" src="10ans369.png" width="100%" height="auto">
+                      </center>
+                    </columns>
+                  </row>
+                  <spacer size="30"></spacer>
+                  <row>
+                    <columns>
+                      <center>
+                        <font color="#ffffff">
+                          <h1><singleline label="Titre">Le 28 juin
+                          <br>au Caffé Bellini</singleline></h1>
+                        </font>
+                      </center>
+                    </columns>
+                  </row>
+                </container>
+              </wrapper>
+            </columns>
+            <columns large="1"></columns>
+          </row>
+        </container>
+      </wrapper>
+    </layout>
+    <layout label="espace">
+      <wrapper class="content">
+        <container class="content">
+          <spacer size="40"></spacer>
+          <p style="color:#ffffff!important;font-size:1px!important;"><singleline label="Titre"><font color="#ffffff;">Antistatique</font></singleline></p>
+        </container>
+      </wrapper>
+    </layout>
+    <layout label="texte">
+      <wrapper class="content">
+        <container class="content">
+          <row>
+            <columns large="1"></columns>
+            <columns large="10">
+              <multiline label="texte">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              </multiline>
+            </columns>
+            <columns large="1"></columns>
+          </row>
+        </container>
+      </wrapper>
+    </layout>
+    <layout label="Bouton">
+      <wrapper class="content">
+        <container class="content">
+          <row>
+            <columns large="1"></columns>
+            <columns large="10">
+              <center>
+                <button href="#" class="large">
+                  <singleline label="Label du bouton" class="bouton"><font color="#ffffff">Je serai là !</font></singleline>
+                </button>
+              </center>
+            </columns>
+            <columns large="1"></columns>
+          </row>
+        </container>
+      </wrapper>
+    </layout>
+    <layout label="Signature">
+      <wrapper class="content">
+        <container class="content">
+          <spacer size="20"></spacer>
+          <row>
+            <columns large="1"></columns>
+            <columns large="10">
+              <img editable border="0" label="signature" src="signature.png" width="287" height="auto" style="width:287px!important;">
+            </columns>
+            <columns large="1"></columns>
+          </row>
+        </container>
+      </wrapper>
+    </layout>
+  </repeater>
+  <wrapper class="footer">
+    <container class="footer">
+      <spacer size="40"></spacer>
+        <row>
+          <columns large="1"></columns>
+          <columns large="10">
+            <row>
+              <columns large="6">
+                <p class="site"><a href="https://antistatique.net/fr/meet/noemie">www.antistatique.net</a></p>
+              </columns>
+              <columns large="6">
+                <div class="social">
+                  <a href="https://www.facebook.com/Antistatique">
+                    <img width="42" style="width:42px!important;" class="social" src="facebook.png" alt="Facebook">
+                  </a>
+                  <a href="https://twitter.com/antistatique">
+                    <img width="42" style="width:42px!important;" class="social" src="twitter.png" alt="Twitter">
+                  </a>
+                  <a href="https://www.instagram.com/antistatique/">
+                    <img width="42" style="width:42px!important;" class="social" src="insta.png" alt="Instagram">
+                  </a>
+                  </div>
+              </columns>
+            </row>
+          </columns>
+          <columns large="1"></columns>
+        </row>
+        <row>
+          <columns large="1"></columns>
+          <columns large="10">
+            <p class="footer">Vous recevez cette newsletter parce que vous êtes client ou partenaire d'Antistatique, ou parce que vous vous êtes directement inscrits à notre newsletter. <br><unsubscribe style="color: #e30074!important;font-style: 12px!important;font-weight: lighter!important;">Se désincrire</unsubscribe> ou <preferences style="color: #e30074!important;font-style: 12px!important;font-weight: lighter!important;">éditer vos préférences</preferences></font></p>
+          </columns>
+          <columns large="1"></columns>
+        </row>
+      </container>
+    </wrapper>
+  </container>
+</wrapper>
